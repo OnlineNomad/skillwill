@@ -2,6 +2,14 @@
   font-family: "Courier New", Courier, monospace;
   background-color: #f6dae4;
 }
+.centered {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  gap: 25px;
+
+}
 body {
   display: flex;
   flex-direction: column;
@@ -9,9 +17,12 @@ body {
   align-items: center;
 }
 #monologue {
-  text-align: center;
+  margin-top: 20px;
+  align-self: center;
   width: 70%;
   background: #f1c5d5;
+  border: #f777a4 solid;
+  text-align: center;
 }
 .info-text {
   padding-left: 20px;
@@ -30,7 +41,7 @@ h1 {
 p {
   font-size: 24px;
 }
-img {
+#portrait {
   width: 300px;
   height: auto;
   border-radius: 20px;
